@@ -206,7 +206,7 @@ plt.ylabel('Articles')
 plt.xlabel('Rules')
 plt.tight_layout()
 plt.savefig('figure1.eps')
-
+plt.clf()
 
 #Figure 2
 
@@ -244,6 +244,7 @@ plt.pie(sizes, explode=explode, labels=labels, colors=colors,
 plt.axis('equal')
 plt.tight_layout()
 plt.savefig('figure2.eps')
+plt.clf()
 
 #Figure 3
 
@@ -261,6 +262,7 @@ plt.xlabel('Citations')
 plt.ylabel('Views')
 plt.tight_layout()
 plt.savefig('figure3.eps')
+plt.clf()
 
 
 
